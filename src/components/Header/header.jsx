@@ -20,7 +20,7 @@ function Header({ lanches, setFilteredItems, setSearchValue }) {
     <Headerr>
       <>
         <img src="assets/logo.png" alt="Logo Burger Singh" />
-        <h1>Burger Singh</h1>
+        <h1>  Burger Singh</h1>
       </>
 
       <form>
