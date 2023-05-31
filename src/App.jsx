@@ -45,17 +45,7 @@ function App() {
         setActiveResearch={setActiveResearch}
       />
 
-      {/* {ActiveResearch && SearchValue && (
-        <div className="resultadosPara">
-          <h2>
-            Resultados para: <span>{SearchValue}</span>
-          </h2>
-
-          <button onClick={() => setInputValueToEmpty()}>
-            Limpar pesquisa
-          </button>
-        </div>
-      )} */}
+      
       <main>
         {SearchValue.length !== 0 ? (
           <>
